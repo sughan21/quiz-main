@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    180deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+.sign-up-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sign-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.signup-width {
+  width: 10rem;
+  height: 0.1rem;
+  background-color: black;
+}
+
+.sign-user {
+  width: 15rem;
+  height: 1.7rem;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Ysabeau SC", sans-serif;
+  outline: none;
+}
+
+.sign-email {
+  width: 15rem;
+  height: 1.7rem;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Ysabeau SC", sans-serif;
+  outline: none;
+}
+
+.sign-pa {
+  width: 15rem;
+  height: 1.7rem;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Ysabeau SC", sans-serif;
+  outline: none;
+}
+
+.sign-copa {
+  width: 15rem;
+  height: 1.7rem;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Ysabeau SC", sans-serif;
+  outline: none;
+}
+
+.sign-btn {
+  width: 8rem;
+  height: 2.2rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  font-family: "Ysabeau SC", sans-serif;
+  box-shadow: 1px 2px rgb(73, 79, 80);
+  background: transparent;
+  cursor: pointer;
+}

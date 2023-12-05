@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.Homepage {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    180deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+.wel {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  font-size: 3rem;
+  font-weight: 300;
+  /* margin-bottom: 3rem; */
+}
+
+p {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.btn-ans {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.btn1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 6rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  /* border: none; */
+  box-shadow: 5px 3px rgb(60, 60, 60);
+  cursor: pointer;
+}
+
+.btn2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 6rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 3px rgb(60, 60, 60);
+  cursor: pointer;
+}
