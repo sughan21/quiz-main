@@ -66,3 +66,30 @@ a {
 .user-icon-id {
   width: 100%;
 }
+
+.Categories {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 7rem;
+  margin-top: 7rem;
+  margin-left: 15rem;
+}
+
+.categ-btn {
+  width: 11rem;
+  height: 8rem;
+  font-size: 1.2rem;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: 500;
+  color: rgb(35, 80, 87);
+  border-radius: 8px;
+  box-shadow: 1.8px 1.5px;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.categ-btn:hover {
+  background: linear-gradient(to right, #31d1e3, #dbd334);
+}
