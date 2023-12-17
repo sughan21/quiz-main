@@ -62,9 +62,7 @@ const LoginForm = ({ no }) => {
           <div className="title" onClick={no}>
             Quiz
           </div>
-          <div className="profile-icon">
-            <CgProfile />
-          </div>
+          <div className="profile-hi">Hi User</div>
         </header>
         {/* {user ? (
         <SignUp />

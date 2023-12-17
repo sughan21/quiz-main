@@ -21,7 +21,6 @@ body {
 }
 
 header {
-  width: 90;
   height: 6rem;
   font-size: 1.7rem;
   display: flex;
@@ -35,12 +34,11 @@ header {
 .title {
   margin-right: 10rem;
   padding-right: 10rem;
-  cursor: pointer;
 }
 
-.profile-icon {
-  margin-left: 15rem;
-  cursor: pointer;
+.profile-hi {
+  margin-left: 10rem;
+  font-size: 1.7rem;
 }
 
 .login {

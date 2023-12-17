@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Ysabeau SC", sans-serif;
+  overflow-x: hidden;
+}
+
+.leader-topic {
+  margin-top: 5rem;
+  margin-left: 40%;
+  font-size: 2rem;
+  color: rgb(49, 148, 163);
+}
+
+.sub-top-leader {
+  margin-top: 3rem;
+  margin-left: 22%;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(227, 228, 228);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.list-person {
+  margin-top: 2.5rem;
+  margin-left: 22%;
+  width: 50rem;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 1rem;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: 500;
+}
+
+.btn-pre-nxt {
+  width: 20rem;
+  margin-left: 37rem;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 5rem;
+}
+
+.left-previous {
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-family: "Ysabeau SC", sans-serif;
+  background-color: transparent;
+  box-shadow: 3px 2px rgb(73, 79, 80);
+}
+
+.right-nxt {
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-family: "Ysabeau SC", sans-serif;
+  background-color: transparent;
+  box-shadow: 3px 2px rgb(73, 79, 80);
+}

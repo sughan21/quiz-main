@@ -13,6 +13,8 @@ import Start from "./page/Start.jsx";
 import SignUp from "./page/signup.jsx";
 import { UserProvider } from "./Context.jsx";
 import PostLogin from "./page/PostLogin.jsx";
+import LeaderBoard from "./page/leaderboard.jsx";
+import History from "./page/history.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +25,8 @@ const router = createBrowserRouter(
       <Route path="/start" element={<Start />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/postlogin" element={<PostLogin />} />
+      <Route path="/leaderboard" element={<LeaderBoard />} />
+      <Route path="/history" element={<History />} />
     </>
   )
 );

@@ -10,6 +10,7 @@ import {
 } from "../firebase/index";
 // import { useNavigate } from "react-router-dom";
 import { useUser } from "../Context.jsx";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const { setFormFields, formFields, setUser, logoutUser, userEmail } =
@@ -31,7 +32,7 @@ const SignUp = () => {
       });
       if (userDocRef) {
         alert("SignUp Success");
-        navigate("/login");
+        useNavigate("/start");
       }
       //   setFormFields(formFields);
       // setFormFields({

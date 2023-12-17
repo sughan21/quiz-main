@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+.his-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: rgb(49, 148, 163);
+}
+
+.history-box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-left: 10rem;
+  gap: 0rem 5rem;
+}
+
+.per-his {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.line-his {
+  width: 7rem;
+  height: 0.1rem;
+  background-color: black;
+}
+
+.topic-his-1 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
+
+.topic-his-2 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
+
+.topic-his-3 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
+
+.topic-his-4 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
+
+.topic-his-5 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
+
+.topic-his-6 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
+
+.topic-his-7 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
+
+.topic-his-8 {
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: rgb(255, 211, 99);
+  border: 2.2px solid black;
+  box-shadow: 1.5px 1.2px rgb(99, 182, 255);
+}
