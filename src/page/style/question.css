@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;400;500&display=swap");
+
+.test-topic {
+  font-family: "Ysabeau SC", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #23808b;
+  padding: 3rem;
+}
+
+.ques {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.qu-width {
+  margin-left: 30rem;
+  width: 38rem;
+  height: 0.01rem;
+  background-color: #ffffff;
+}
+
+.answer-btn {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 3rem 35rem;
+  gap: 2rem 5rem;
+}
+
+.ans-btn {
+  width: 12rem;
+  height: 3.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Ysabeau SC", sans-serif;
+  border-radius: 8px;
+  box-shadow: 1.2px 1px rgb(39, 198, 190);
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.ans-btn:hover {
+  background: linear-gradient(to bottom, #31d1e3, #dbd334);
+}
+
+.prev-nxt-btn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 5rem 25rem;
+  gap: 2rem 35rem;
+}
+
+.prev-btn,
+.nxt-btn {
+  width: 7rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Ysabeau SC", sans-serif;
+  border-radius: 8px;
+  box-shadow: 1.2px 1px rgb(39, 198, 190);
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.prev-btn:hover {
+  background: #cdc867;
+}
+
+.nxt-btn:hover {
+  background: #77cad3;
+}

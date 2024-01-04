@@ -1,9 +1,16 @@
 import React from "react";
 import "./style/history.css";
+import { Link } from "react-router-dom";
+import { TfiControlBackward } from "react-icons/tfi";
 
 const History = () => {
   return (
     <div className="history">
+      <Link to="/start">
+        <button className="his-back-btn">
+          <TfiControlBackward className="hi-ba-btn" /> Back
+        </button>
+      </Link>
       <h1 className="his-top">HISTORY</h1>
       <div className="history-box">
         <div className="topic-his-1">

@@ -1,11 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./style/leaderboard.css";
 import { GrFormNextLink } from "react-icons/gr";
 import { GrFormPreviousLink } from "react-icons/gr";
+import { TfiControlBackward } from "react-icons/tfi";
 
 const LeaderBoard = () => {
   return (
     <div className="leaderboard">
+      <Link to="/start">
+        <button className="lead-back-btn">
+          <TfiControlBackward className="le-ba-btn" /> Back
+        </button>
+      </Link>
       <h2 className="leader-topic">LEADERBOARD</h2>
       <div className="sub-top-leader">
         <span className="rank">RANK</span>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaHome, FaHistory, FaBrain } from "react-icons/fa";
 import {
@@ -15,10 +15,25 @@ import { FcSportsMode } from "react-icons/fc";
 import { GrTechnology } from "react-icons/gr";
 import { RiMovie2Line } from "react-icons/ri";
 import { BsMusicNoteList } from "react-icons/bs";
-
 import "./style/start.css";
-
+import YourComponent from "./category-popup";
+import UserIcon from "./user-popup";
 const Start = () => {
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const handleButtonClick = () => {
+    setPopupOpen(true);
+  };
+
+  const handleClosePopup = () => {
+    setPopupOpen(false);
+  };
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeProfile = () => {
+    setIsOpen(false);
+  };
   return (
     <div>
       <header className="start-Category">
@@ -42,70 +57,68 @@ const Start = () => {
           </span>
         </Link>
         <span className="user-icon">
-          <HiOutlineUserCircle />
+          {!isOpen ? (
+            <HiOutlineUserCircle onClick={() => setIsOpen(true)} />
+          ) : (
+            ""
+          )}
         </span>
-        {/* <div className="popup">
-        <div className="user-icon-id">
-          <CgUserlane /> Username
-          <div>user@gamil.com</div>
-        </div>
-        <div className="user-icon-signout">
-          <TbLogout />
-          Sign out
-        </div>
-      </div> */}
       </header>
-
       <div className="Categories">
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <FaBrain />
           </div>
           General Knowledge:
         </button>
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <MdOutlineScience />
           </div>
           Science
         </button>
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <TbHistoryToggle />
           </div>
           History
         </button>
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <FcSportsMode />
           </div>
           Sports
         </button>
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <GrTechnology />
           </div>
           Technology
         </button>
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <MdOutlineSportsCricket />
           </div>
           Cricket
         </button>
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <RiMovie2Line />
           </div>
           Movies & Entertainment
         </button>
-        <button className="categ-btn">
+        <button className="categ-btn" onClick={handleButtonClick}>
           <div>
             <BsMusicNoteList />
           </div>
           Music
         </button>
       </div>
+      <YourComponent
+        isPopupOpen={isPopupOpen}
+        handleClosePopup={handleClosePopup}
+      />
+      <UserIcon isOpen={isOpen} closeProfile={closeProfile} />
     </div>
   );
 };

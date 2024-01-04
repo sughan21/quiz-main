@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;400;500&display=swap");
+
+.us-popup {
+  position: absolute;
+  top: 3.5rem;
+  right: 4rem;
+  width: 25rem;
+  height: 12rem;
+  background-color: rgba(0, 201, 251, 0.5);
+  box-shadow: 5px 3px 20px 1px;
+}
+
+.user-icon-clo {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 1.8rem;
+  width: 24rem;
+  height: 3rem;
+  color: rgb(35, 80, 87);
+  cursor: pointer;
+}
+
+.popup-cl {
+  font-size: 1.5rem;
+  margin-left: 6rem;
+  /* padding: 1.2rem; */
+}
+
+.user-icon-signout {
+  width: 6rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.4s ease-in-out;
+  border: 1px solid rgb(168, 50, 50);
+  cursor: pointer;
+  /* font-family: "Ysabeau SC", sans-serif; */
+  font-weight: 700;
+}
+
+.user-icon-signout:hover {
+  background: rgb(239, 21, 21);
+}

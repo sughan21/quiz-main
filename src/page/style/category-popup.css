@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;400;500&display=swap");
+
+.sub-cate-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cate-popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+  gap: 2rem;
+  padding: 2rem;
+  background: linear-gradient(
+    360deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 12px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.ques-tim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cat-pop {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.ques-no {
+  width: 12rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+}
+.diff-opt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dif-name {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.dif-sele {
+  width: 12rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cat-pop-btn {
+  width: 7rem;
+  height: 2rem;
+  border: 1px solid rgb(239, 236, 105);
+  background-color: transparent;
+  font-weight: 500;
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}

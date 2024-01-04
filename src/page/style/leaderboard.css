@@ -13,6 +13,23 @@ body {
   overflow-x: hidden;
 }
 
+.le-ba-btn {
+  height: 0.9rem;
+}
+
+.lead-back-btn {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Ysabeau SC", sans-serif;
+  background-color: transparent;
+  box-shadow: 3px 2px rgb(211, 216, 72);
+  cursor: pointer;
+}
+
 .leader-topic {
   margin-top: 5rem;
   margin-left: 40%;
@@ -62,6 +79,7 @@ body {
   font-family: "Ysabeau SC", sans-serif;
   background-color: transparent;
   box-shadow: 3px 2px rgb(73, 79, 80);
+  cursor: pointer;
 }
 
 .right-nxt {
@@ -71,4 +89,5 @@ body {
   font-family: "Ysabeau SC", sans-serif;
   background-color: transparent;
   box-shadow: 3px 2px rgb(73, 79, 80);
+  cursor: pointer;
 }

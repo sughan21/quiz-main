@@ -16,6 +16,8 @@ import PostLogin from "./page/PostLogin.jsx";
 import LeaderBoard from "./page/leaderboard.jsx";
 import History from "./page/history.jsx";
 import Question from "./page/question.jsx";
+import YourComponent from "./page/category-popup.jsx";
+import UserIcon from "./page/user-popup.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -29,6 +31,8 @@ const router = createBrowserRouter(
       <Route path="/leaderboard" element={<LeaderBoard />} />
       <Route path="/history" element={<History />} />
       <Route path="/question" element={<Question />} />
+      <Route path="/yourComponent" element={<YourComponent />} />
+      <Route path="/UserIcon" element={<UserIcon />} />
     </>
   )
 );
